@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonSearch", "PersonSearch\PersonSearch.csproj", "{03297344-8C0D-4572-9855-6DBFBA341D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonSearch.Tests", "PersonSearch.Tests\PersonSearch.Tests.csproj", "{D2DD09BB-9F99-4866-B3E4-59A97EF136E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03297344-8C0D-4572-9855-6DBFBA341D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03297344-8C0D-4572-9855-6DBFBA341D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03297344-8C0D-4572-9855-6DBFBA341D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03297344-8C0D-4572-9855-6DBFBA341D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DD09BB-9F99-4866-B3E4-59A97EF136E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DD09BB-9F99-4866-B3E4-59A97EF136E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DD09BB-9F99-4866-B3E4-59A97EF136E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DD09BB-9F99-4866-B3E4-59A97EF136E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
