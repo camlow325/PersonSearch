@@ -95,7 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="Scripts\home-test.js" />
     <Content Include="Content\qunit.css" />
+    <Content Include="Content\home.html" />
     <Content Include="Scripts\qunit.js" />
   </ItemGroup>
   <ItemGroup>

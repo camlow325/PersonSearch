@@ -1,18 +1,18 @@
 ﻿$(document).keypress(function (e) {
     if (e.which == 13) {
-        SearchUsingAjax();
+        searchUsingAjax();
     }
 });
 
 $(document).ready(function () {
     $('#search').click(function () {
-        SearchUsingAjax();
+        searchUsingAjax();
     });
     $('#name').focus();
     $('#status').hide();
 });
 
-function SearchUsingAjax() {
+function searchUsingAjax() {
     $('#status').text("Searching...").show();
     $("#search").attr("disabled", true);
     $("#name").attr("disabled", true);
