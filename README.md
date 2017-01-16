@@ -17,3 +17,19 @@ database startup.  The information can currently only be changed by
 editing [this C# source file](./PersonSearch/Models/PeopleDbInitializer.cs)
 before the application is started.  Note that the value in the `Picture`
 field represents the user's picture as a base-64 encoded jpg image.
+
+## Running Tests
+
+To run the C# unit tests from a Visual Studio developer command prompt, execute
+the following:
+
+~~~sh
+$ MSTest /testcontainer:PersonSearch.Tests\bin\debug\PersonSearch.Tests.dll
+~~~
+
+To run the JavaScript tests via [Chutzpah](https://github.com/mmanela/chutzpah)
+from a Visual Studio developer command prompt, execute the following:
+
+~~~sh
+$ packages\Chutzpah.4.3.3\tools\chutzpah.console.exe PersonSearch.Tests\Scripts
+~~~
